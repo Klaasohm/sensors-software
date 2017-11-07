@@ -212,8 +212,8 @@ RHReliableDatagram manager(rf69, CLIENT_ADDRESS);
 /*****************************************************************/
 #if defined(ESP8266)
 SSD1306   display(0x3c, D3, D4);
-LiquidCrystal_I2C lcd_27(0x27, 16, 2);
-LiquidCrystal_I2C lcd_3f(0x3F, 16, 2);
+LiquidCrystal_I2C lcd_27(0x27, 20, 4);
+LiquidCrystal_I2C lcd_3f(0x3F, 20, 4);
 #endif
 
 /*****************************************************************
